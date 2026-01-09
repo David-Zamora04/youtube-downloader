@@ -1,15 +1,15 @@
-youtube-downloader-pro
+# youtube-downloader-pro
 
 YouTube Downloader Pro is a Python-based YouTube downloader built on top of **yt-dlp**, providing both a **command-line interface (CLI)** and a **graphical user interface (GUI)** for downloading videos, audio, and playlists.
 
-CLI Version – A terminal-based interactive downloader for quick and simple usage.
-GUI Version – A modern Tkinter-based graphical interface with multiple format options and download progress tracking.
+**CLI Version** – A terminal-based interactive downloader for quick and simple usage.  
+**GUI Version** – A modern Tkinter-based graphical interface with multiple format options and download progress tracking.
 
 ---
 
-Features
+## Features
 
-CLI Version
+### CLI Version
 - Interactive menu-driven interface.
 - Download single videos or full playlists.
 - Choose between:
@@ -20,7 +20,7 @@ CLI Version
 - Clear console output with progress and error messages.
 - No external GUI dependencies.
 
-GUI Version
+### GUI Version
 - Modern and clean Tkinter-based interface.
 - Paste video or playlist URL directly.
 - Select download format and quality.
@@ -33,36 +33,43 @@ GUI Version
 
 ---
 
-Installation
+## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/David-Zamora04/youtube-downloader-pro.git
 cd youtube-downloader-pro
+```
 
 (Optional) Create a virtual environment:
 
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
+```
 
 Install dependencies:
 
+```bash
 pip install -U yt-dlp
+```
 
-Note:
-FFmpeg is required for merging video and audio streams and for audio extraction.
-Make sure `ffmpeg` is available in your system PATH or placed next to the executable.
+### Note:
+FFmpeg is required for merging video and audio streams and for audio extraction. Make sure ffmpeg is available in your system PATH or placed next to the executable.
 
 ---
 
-Usage
+## Usage
 
-CLI Version
+### CLI Version
 
 Run the CLI script:
 
+```bash
 python youtube_downloader_cli.py
+```
 
 Follow the on-screen instructions to:
 - Paste a YouTube video or playlist URL.
@@ -70,65 +77,32 @@ Follow the on-screen instructions to:
 - Monitor progress directly in the terminal.
 - Download multiple items in a single session.
 
----
-
-GUI Version
+### GUI Version
 
 Run the GUI script:
 
+```bash
 python youtube_downloader_gui.py
+```
 
 Or download the prebuilt Windows executables from the Releases page.
 
 Steps:
 - Paste the YouTube URL.
 - Select the desired download format.
-- Choose destination folder.
+- Choose the destination folder.
 - Click the download button and track progress.
 
 ---
 
-Building Executables (Windows)
+## Contributing
 
-You can build your own `.exe` files using PyInstaller:
-
-GUI without console:
-
-pyinstaller --onefile --noconsole youtube_downloader_gui.py
-
-GUI with console (logs enabled):
-
-pyinstaller --onefile youtube_downloader_gui.py
-
-CLI executable:
-
-pyinstaller --onefile youtube_downloader_cli.py
+Feel free to submit pull requests or open issues. Suggestions to improve the downloader, add features, or improve the UI are welcome.
 
 ---
 
-Contributing
+## License
 
-Contributions are welcome.
-Feel free to open issues or submit pull requests for:
-- Bug fixes
-- UI improvements
-- Additional download options
-- Performance enhancements
+This project is provided for educational and personal use. Attribution is appreciated.
 
----
 
-License
-
-This project is intended for educational and personal use.
-You are free to modify and adapt it.
-Attribution is appreciated.
-
----
-
-Notes
-
-- Requires Python 3.8+
-- Uses yt-dlp as the core downloading engine.
-- FFmpeg is mandatory for audio extraction and video/audio merging.
-- Playlist downloads are automatically organized into folders.
-- The console GUI version is recommended for debugging and error tracking.
