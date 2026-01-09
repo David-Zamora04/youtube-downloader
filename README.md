@@ -1,6 +1,6 @@
 # youtube-downloader
 
-YouTube Downloader Pro is a Python-based YouTube downloader built on top of **yt-dlp**, providing both a **command-line interface (CLI)** and a **graphical user interface (GUI)** for downloading videos, audio, and playlists.
+YouTube Downloader is a Python-based YouTube downloader built on top of **yt-dlp**, providing both a **command-line interface (CLI)** and a **graphical user interface (GUI)** for downloading videos, audio, and playlists.
 
 **CLI Version** – A terminal-based interactive downloader for quick and simple usage.  
 **GUI Version** – A modern Tkinter-based graphical interface with multiple format options and download progress tracking.
