@@ -1,4 +1,4 @@
-# youtube-downloader-pro
+# youtube-downloader
 
 YouTube Downloader Pro is a Python-based YouTube downloader built on top of **yt-dlp**, providing both a **command-line interface (CLI)** and a **graphical user interface (GUI)** for downloading videos, audio, and playlists.
 
@@ -38,7 +38,7 @@ YouTube Downloader Pro is a Python-based YouTube downloader built on top of **yt
 Clone the repository:
 
 ```bash
-git clone https://github.com/David-Zamora04/youtube-downloader-pro.git
+git clone https://github.com/David-Zamora04/youtube-downloader.git
 cd youtube-downloader-pro
 ```
 
