@@ -7,7 +7,7 @@ This repository provides **Windows executables** for both GUI modes and a Python
 
 ---
 
-## 🚀 Features
+## Features
 
 - Download video + audio (up to 1080p, MP4)  
 - Download video only (MP4, no audio)  
@@ -19,7 +19,7 @@ This repository provides **Windows executables** for both GUI modes and a Python
 
 ---
 
-## 🖥 GUI Version
+## GUI Version
 
 ### Available Executables
 
@@ -38,7 +38,7 @@ This repository provides **Windows executables** for both GUI modes and a Python
 
 ---
 
-## 💻 CLI Version
+## CLI Version
 
 ### Usage
 
